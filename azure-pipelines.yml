@@ -36,3 +36,6 @@ steps:
     appType: 'webApp'
     WebAppName: 'testevansoline'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
+- task: PublishBuildArtifacts@1
+
